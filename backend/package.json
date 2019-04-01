@@ -8,7 +8,7 @@
     "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
     "prod": "tsc && node ./build/index.js",
     "build": "tsc",
-    "deploy": "tsc"
+    "deploy": "tsc && bash -x ./deploy.sh"
   },
   "author": "py3ir",
   "license": "MIT",
